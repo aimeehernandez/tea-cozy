@@ -9,11 +9,61 @@ body {
 
 header {
   height: 69px;
-  border: 1px solid white;
+  border-bottom: 1px solid seashell;
   position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  background-color: black;
+  opacity: 0.9;
 }
 
-header nav {
+a {
+  display: inline-block;
   color: seashell;
-  text-decoration: underline;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.section-1 {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(images/img-mission-background.jpg);
+  align-items: center;
+}
+
+.mission {
+  width: 1200px;
+  background-color: black;
+}
+
+.section-2 {
+  display: flex;
+  width: 1000px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-pic {
+  width: 300px;
+  text-align: center;
+}
+.tea-pic img {
+  height: 200px;
 }
