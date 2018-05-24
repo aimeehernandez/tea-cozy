@@ -50,7 +50,12 @@ a {
 }
 
 .section-2 {
-  display: flex;
+  width: 1000px;
+}
+
+.title {
+  display: block;
+  background-color: black;
   width: 1000px;
 }
 
@@ -66,4 +71,23 @@ a {
 }
 .tea-pic img {
   height: 200px;
+}
+
+.section-3 {
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  color: seashell;
+}
+
+.location-container {
+  display: inline-block;
+  align-items: center;
+}
+
+.locations {
+  display: inline-block;
+  background-color: black;
+  height: 300px;
+  width: 300px;
 }
