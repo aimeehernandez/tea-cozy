@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  border: 1px solid white;
+  position: fixed;
+}
+
+header nav {
+  color: seashell;
+  text-decoration: underline;
+}
