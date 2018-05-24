@@ -17,6 +17,7 @@ header {
   justify-content: flex-start;
   background-color: black;
   opacity: 0.9;
+  top: 0px;
 }
 
 a {
@@ -37,7 +38,10 @@ a {
 }
 
 .main-content {
-  position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 63px;
 }
 
 .section-1 {
@@ -55,6 +59,7 @@ a {
 
 .section-2 {
   width: 1000px;
+  justify-content: center;
 }
 
 .title {
@@ -72,9 +77,14 @@ a {
 .tea-pic {
   width: 300px;
   text-align: center;
+  margin: 0px 15px;
 }
 .tea-pic img {
   height: 200px;
+}
+
+.tea-pic p {
+  margin-top: 10px;
 }
 
 .section-3 {
@@ -94,6 +104,7 @@ a {
   background-color: black;
   height: 300px;
   width: 300px;
+  margin: 0px 20px;
 }
 
 .contact {
